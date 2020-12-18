@@ -1,0 +1,95 @@
+.navbar {
+    align-items: center;
+    background-color: #FFF159;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    height:10vh;
+    justify-content: space-between;
+    margin: auto;
+    padding: 1rem 1rem;
+}
+
+.content {
+    padding: 2.5rem 15rem;
+    background-color: #e7e7e7;
+    height:100%;
+    width: 100%;
+}
+
+.categories {
+  font-size: 10px;
+  background-color: #e7e7e7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  p{
+    display: inline-block;
+  }
+}
+
+.logo{
+    align-items: center;
+    display: flex;
+    justify-content:space-between;
+    position: absolute;
+    top: 25px;
+}
+
+.search-bar {
+    align-items: center;
+    display: flex;
+    justify-content:space-between;
+    margin: auto;
+}
+
+/* Style the search field */
+form.search-bar input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 0px solid;
+  border-right: 1px solid grey !important;
+  float: left;
+  width: 900px;
+  background: #ffffff;
+  outline:transparent;
+}
+
+/* Style the submit button */
+form.search-bar button {
+  float: left;
+  width: 10%;
+  padding: 10px;
+  background: #ffffff;
+  color: black;
+  font-size: 17px;
+  border: 1px solid rgb(238, 238, 238);
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+  outline:transparent;
+}
+
+form.search-bar button:hover {
+  background: #f6f6f6;
+}
+
+form.search-bar button:disabled {
+  background: #bebebe;
+  transition: 0.3s;
+  cursor: not-allowed;
+}
+
+/* Clear floats */
+form.search-bar::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.loader-center{
+  display: block;
+  filter: opacity(0.5);
+  height: 100%;
+  margin: 20vh;
+  text-align: center
+}

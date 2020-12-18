@@ -1,0 +1,103 @@
+.detail-card {
+    /* Add shadows to create the "card" effect */
+    align-items: stretch;
+    background-color: white;
+    // border-radius: 5px;
+    box-shadow: 0 30px 60px 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-wrap: nowrap;
+    margin: auto;
+    transition: 0.3s;
+    width: 65%;
+}
+
+.header-container {
+    display: inline-block;
+    float: right;
+    margin-top: 50px;
+    margin-left: 5px;
+    width: 29%;
+}
+
+.pay-btn {
+    background-color: #3483fa;
+    border: transparent;
+    border-radius: 6px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    height: 48px;
+    line-height: 48px;
+    margin: 20px;
+    padding: 0 24px;
+    text-align: center;
+    outline: none;
+    width: -webkit-fill-available;
+}
+
+.pay-btn:hover {
+    background-color: #2968C8;
+    border: transparent;
+    border-radius: 6px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    height: 48px;
+    line-height: 48px;
+    margin: 20px;
+    padding: 0 24px;
+    text-align: center;
+    outline: none;
+    width: -webkit-fill-available;
+    transition: 0.3s;
+}
+
+.detail-header {
+    margin-left: 5px;
+}
+.detail-description {
+    padding: 20px;
+}
+
+.description-text {
+    white-space: ellipsis;
+    white-space: pre-wrap;
+    overflow: hidden;
+}
+
+.detail-img-card {
+    display: contents;
+    height: 100%;
+    padding: 5px;
+    width: 120%;
+}
+
+.detail-img-card img {
+    display: inline-block;
+    height: 60%;
+    width: 100%;
+}
+
+.tags {
+    font-weight: 100;
+    font-size: 80%;
+}
+
+.back {
+    position: fixed;
+    top: 127px;
+    height: 3%;
+    left: 25px;
+    filter: opacity(0.2);
+}
+
+.back:hover {
+    position: fixed;
+    top: 127px;
+    height: 3%;
+    left: 25px;
+    filter: opacity(0.5);
+    transform: scale(1.2);
+}
