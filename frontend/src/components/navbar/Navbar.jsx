@@ -14,7 +14,6 @@ const Navbar = ({ children }) => {
     let history = useHistory();
     let location = useLocation();
 
-    console.log(location)
     const handleChange = (event) => {
         setInputValue(event.target.value);
     }
@@ -27,7 +26,6 @@ const Navbar = ({ children }) => {
         };
         await Axios.get(`http://localhost:4000/api/items?q=${inputValue}`, config)
             .then(res => {
-                console.log(res.data);
                 setData(res.data);
                 setIsLoading(false)
             })

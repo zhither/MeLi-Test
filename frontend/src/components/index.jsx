@@ -1,5 +1,4 @@
 import React from 'react';
-import Navbar from './navbar/navbar'
 import './index.scss'
 
 import search from '../assets/portfolio.svg';
