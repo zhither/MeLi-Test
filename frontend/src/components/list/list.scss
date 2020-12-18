@@ -63,3 +63,18 @@
     height: 100%;
     padding: 10px;
   }
+
+  .not-found {
+    text-align: center;
+
+    img {
+      margin: auto;
+      display: block;
+      width: 20%;
+      filter: opacity(0.5);
+    }
+
+    h3 {
+      color: rgba(53, 53, 53, 0.863);
+    }
+  }
